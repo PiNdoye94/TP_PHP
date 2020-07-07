@@ -1,0 +1,254 @@
+header
+{
+    /*border: 1px solid;*/
+    display: flex;
+    align-items: center;
+}
+body
+{
+    background-color: rgb(85, 9, 129);
+    color:  rgb(85, 9, 129);
+}
+img
+{
+    width: 100;
+    height: 75px;
+}
+#logo,#welcome
+{
+    /*border: solid;*/
+    background-color: white;
+    padding: 15px;
+    /*display:inline-block;*/
+}
+#welcome
+{
+    margin-left: 150px;
+    font-weight:bold;
+    background-color: #fff;
+    text-shadow: 0px 1px 0px rgba(85, 9, 129, 0.4);  
+    /*padding-top:12px;*/
+    /*box-shadow: 6px 6px 0px #ffb;*/
+
+}
+h2
+{
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 10px;
+    margin-top: 75px;
+    width:auto;
+    display:block;
+    height:50px;
+    text-align:center;
+    color: rgb(85, 9, 129);
+    font-weight:bold;
+    background-color: #fff;
+    text-shadow: 0px 1px 0px rgba(85, 9, 129, 0.4);  
+    padding-top:12px;
+    /*box-shadow: 6px 6px 0px #ffb;*/
+}
+#container
+{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+.type
+{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight:bold;
+    background-color: #fff;
+    text-shadow: 0px 1px 0px rgba(85, 9, 129, 0.4);  */
+    padding-top:12px;
+    /*box-shadow: 6px 6px 0px #ffb;*/
+    /*display: inline;
+    margin: 6px;*/
+}
+#typeClient
+{
+    width: 70%;
+    margin: auto;
+    padding: 3%;
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#ouCompte
+{
+    text-align: center;
+}
+#btns,#save
+{
+    text-align: center;
+}
+.btn
+{
+    margin: 15px;
+    padding: 8px;
+    color: rgb(85, 9, 129);
+    height: 33px;
+    width: 200px;
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+}
+input[type=submit] 
+{
+    width: 150px;
+    padding: 10px;
+    margin: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+input[type=reset] 
+{
+    width: 150px;
+    padding: 10px;
+    margin: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    cursor:pointer;
+    box-shadow: 6px 6px 0px rgb(85, 9, 129);
+}
+input[type="reset"]:hover
+{
+    cursor:pointer;
+    box-shadow: 6px 6px 0px rgb(85, 9, 129);
+}
+#search, #btn_ajout
+{
+    text-align: center;
+    padding-right: 16%;
+}
+
+#typeCompte
+{
+    text-align: center;
+}
+
+#formulaire
+{
+    width: 70%;
+    margin: auto;
+    padding: 3%;
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    
+}
+#formulaire,#search,#dataComptes
+{
+    display: none;
+}
+fieldset 
+{
+   
+    font-weight:bold;
+    background-color: #EFEFEF;
+    text-shadow: 0px 1px 0px rgba(85, 9, 129, 0.4);  
+    width: 70%;
+    margin: auto;
+    padding: 8%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid ;
+   
+}
+legend 
+{
+    padding: 0px 3px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.btn_search, #btn_ajout
+{
+    cursor: pointer;
+}
+fieldset input, .btn_search
+{
+    width:250px;
+    height:25px;
+    border:#333 1px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    text-align:center;
+    font-size:16px;
+    background-color:#fff;
+    color:#7030a0;
+    font-weight:bold;
+    text-decoration:none;
+    margin: 3px;
+    margin-left: 20%;
+}
+label 
+{
+    width: 200px;
+    display: inline-block;
+}
+
+fieldset select
+{
+    width:250px;
+    height:30px;
+    border:#333 1px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    text-align:left;
+    padding-left:5px;
+    font-size:18px;
+    background-color:#fff;
+    color:#7030a0;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+
+}
+#comptes
+{
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#confirm{
+    background-color: white;
+    margin: 15px; 
+}
+#confirm p{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*#message
+{
+    width:auto;
+    border:#333 1px solid;
+    height:30px;
+    text-align:left;
+    font-size:15px;
+    padding-left:10px;
+    padding-top:12px;
+    border-radius: 5px;
+    margin-bottom:20px;
+}*/
+

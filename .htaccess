@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^.{0}$ index.php
+RewriteRule ^salarie$ view/salaire.php
+RewriteRule ^nonsalarie$ view/nonsalarie.php
+RewriteRule ^moral$ view/moral.php
+
+RewriteRule ^CClientMoral$ controller/CClientMoral.php
+RewriteRule ^CClientSalarie$ controller/CClientSalarie.php
+RewriteRule ^CClientNonSalarie$ controller/CClientNonSalarie.php
